@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // Change the dialect to 'mysql' and update credentials as needed
-const sequelize = new Sequelize('users', 'root', 'undertaker', {
+const sequelize = new Sequelize('users', 'root', 'password', {
   host: 'localhost',
   dialect: 'mysql', // Changed to MySQL
   logging: console.log,
